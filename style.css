@@ -112,7 +112,7 @@ main {
       #input_bar {
         height: 30px;
         width: 100%;
-        padding: 0px 10px;
+        padding: 3px 10px;
         background-color: transparent;
         overflow: hidden;
 
@@ -189,6 +189,54 @@ main {
       text-decoration: underline;
     }
   }
+}
 
-  
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  .coutry {
+    background-color: #171717;
+    padding: 15px 30px;
+    border-bottom: 1px solid var(--gS5jXb);
+    font-size: 15px;
+    color: var(--YLNNHc);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(49, 49, 49);
+  }
+
+  .links {
+    background-color: #171717;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    padding: 0 20px;
+
+    .left_link,
+    .right_link {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      a {
+        text-decoration: none;
+        color: #e8e8e8;
+        display: block;
+        padding: 15px;
+        white-space: nowrap;
+        background-color: #171717;
+
+        cursor: pointer;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 }
